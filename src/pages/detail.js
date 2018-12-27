@@ -7,7 +7,8 @@ import Ingredients from '../components/ingredients';
 import Steps from '../components/steps';
 
 const SecondPage = (props) => {
-  const recipeName = props.location.state.recipe;
+  const recipeName = props.location.pathname.split('/')[2].split('-').join(' ');
+  console.log(recipeName);
   return (
     <Layout>
       <SEO title="Page two" />
