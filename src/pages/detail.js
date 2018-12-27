@@ -12,7 +12,7 @@ const SecondPage = (props) => {
   return (
     <Layout>
       <SEO title="Page two" />
-      <h1>Selected recipe {recipeName}</h1>
+      <h1>{recipeName}</h1>
       <StaticQuery
         query={graphql`
           query {
