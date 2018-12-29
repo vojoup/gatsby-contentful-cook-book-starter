@@ -30,13 +30,13 @@ const IndexPage = () => (
     />
     <form name="contact" netlify>
       <p>
-        <label>Name: <input type="text" name="name" placeholder="Your name" /></label>
+        <label>Name <input type="text" name="name" /></label>
       </p>
       <p>
-        <label>Email: <input type="email" name="email" placeholder="Your email" /></label>
+        <label>Email <input type="email" name="email" /></label>
       </p>
       <p>
-        <button type="submit">Send!</button>
+        <button type="submit">Send</button>
       </p>
     </form>
   </Layout>
