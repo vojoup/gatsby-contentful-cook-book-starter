@@ -28,7 +28,7 @@ const IndexPage = () => (
         }
       }) => edges.map(({ node }, i) => <RecipeItem {...node} key={i} />)}
     />
-    <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+    <form action="/success" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
       <p>
         <label>Your Name: <input type="text" name="name" /></label>
       </p>
