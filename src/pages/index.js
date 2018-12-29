@@ -28,6 +28,17 @@ const IndexPage = () => (
         }
       }) => edges.map(({ node }, i) => <RecipeItem {...node} key={i} />)}
     />
+    <form name="contact" netlify>
+      <p>
+        <label>Name: <input type="text" name="name" placeholder="Your name" /></label>
+      </p>
+      <p>
+        <label>Email: <input type="email" name="email" placeholder="Your email" /></label>
+      </p>
+      <p>
+        <button type="submit">Send!</button>
+      </p>
+    </form>
   </Layout>
 );
 
